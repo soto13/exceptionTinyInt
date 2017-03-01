@@ -1,13 +1,13 @@
-import distutils.core import setup
+from distutils.core import setup
 
 setup(
 	name = 'tyniIntError',
 	packages = ['package'],
 	version = '0.1',
-	description = 'nos oermite validar errores tipo tiny int',
+	description = 'nos permite validar errores tipo tiny int',
 	author = 'Jose Soto',
 	author_email = 'ezesoto13@gmail.com',
-	url = '',
+	url = 'https://github.com/soto13/exceptionTinyInt.git',
 	keyword = ['error', 'int', 'tinyInt']
 )
 
